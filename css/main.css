@@ -1,0 +1,723 @@
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: 
+    url('../fonts/mulish-v10-latin-regular.woff2') format('woff2'), 
+    url('../fonts/mulish-v10-latin-regular.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+    url('../fonts/mulish-v10-latin-300.woff2') format('woff2'), 
+    url('../fonts/mulish-v10-latin-300.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/mulish-v10-latin-700.woff2') format('woff2'), 
+    url('../fonts/mulish-v10-latin-700.woff') format('woff'); 
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    margin: 0;
+}
+
+
+
+img {
+    vertical-align: middle;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+
+.home-box {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container {
+    width: 1250px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.link-home {
+    font-family: "Mulish", sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(31, 21, 52, 1)
+    
+}
+
+
+.logo-home {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.link {
+    
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(31, 21, 52, 1)
+    
+}
+
+
+.box-text {
+    margin-bottom: 100px;
+}
+
+.hero-link {  
+    background-color: rgba(69, 143, 246, 1);
+    border-radius: 55px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    
+}
+
+
+.hedader-links {
+    display: flex;
+    
+    
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1050px;
+}
+
+.home-product {
+    display: flex;
+    padding-left: 0;
+    
+    
+}
+
+.product-item {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    margin-top: 0;
+    margin-bottom: 70px;    
+}
+
+.lupa-pic-center {
+    margin-top: 0px;
+    
+    
+}
+
+.product {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;    
+    margin-right: 20px;
+    list-style: none;
+    color: rgba(31, 21, 52, 1);
+}
+
+.main {
+    padding-top: 80px;
+    background-image: url(../images/back.png) ;
+    background-repeat: no-repeat;
+    background-size: 100px, 80px;
+    background-position: calc(50% - 740px) calc(50% - 250px) ;
+    border-radius: 10px;
+}
+
+.back-pic {
+    background-image: url(../images/back.png), url(../images/bgelement.png);
+    background-repeat: no-repeat;
+    background-size: 110px 100px, 1000px 1000px ;
+    background-position: calc(50% - -540px) calc(50% - -40px), calc(50% - 480px) calc(50% - 25px) ;
+}
+
+.main-items {
+    display: flex;
+    margin-bottom: 120px;
+    align-items: center;
+    
+}
+
+
+.main-back {
+    background-image: url(../images/back.png) ;
+    background-repeat: no-repeat;
+    background-size: 100px, 80px;
+    background-position: calc(50% - -750px) calc(50% - 10px) ;
+}
+
+
+
+.container-item {
+    width: 450px;
+    
+}
+
+
+.services-item {
+    font-family: "Mulish", sans-serif ;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+
+.rightpic{
+    vertical-align: middle;
+    margin-left: 100px;
+    
+    
+}
+
+
+.pdoduct-home {
+    font-family: "Mulish", sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.services-center {
+    width: 1250px;
+    text-align: center;
+}
+
+
+
+
+
+.span-item {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 56px;
+    height: 2px; 
+    background:rgb(0, 0, 0);
+    border-radius: 5px
+    
+    
+}
+
+
+
+
+.center-box-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.storng-text {
+    font-family: "Mulish", sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.center-box-text {
+    font-family: "Mulish", sans-serif ;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    width: 350px;
+    text-align: left;
+    list-style: none;
+    margin: 5px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: rgb(229, 299, 299);
+    
+}
+
+.lupa-pic {
+    margin-bottom: 20px;
+}
+
+.Learn-more {
+    color: rgb(69, 143, 246);
+    font-family: "Mulish", sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    width: 200px;
+    border: 1px solid rgb(69, 143, 246);
+    margin-top: 50px;    
+    border-radius: 55px;
+    font-size: 18px;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    margin-bottom: 30px;
+    line-height: 60px;
+    
+    
+}
+
+
+.center-box {
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+
+.healthcare{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    
+}
+
+
+.box-heal-item-text {
+    width: 480px;
+    margin-left: 100px;
+}
+
+
+.home-info {
+    width: 400px;
+    
+}
+
+.mobile-app {
+    display: flex;
+    
+}
+
+
+.back {
+    background-image: url(../images/box-in.png) ;
+    background-repeat: no-repeat;
+    background-size: 100px, 80px;
+    background-position: calc(50% - 520px) calc(50% - -130px) ;
+    
+}
+
+.box-mask {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1050px;
+    margin-top: 100px;    
+    background-color: rgb(90, 152, 242);
+    text-align: center;
+    padding: 30px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    background-image: url("../images/box.png") ;
+    background-repeat: no-repeat;
+    background-size: 100px, 80px;
+    background-position: calc(50% - -510px) calc(50% - 170px) ;
+    
+    
+}
+
+.box-mask-in {
+    display: flex;
+    color: rgba(255, 255, 255, 1);
+    
+}
+
+.customer {
+    width: 1000px;
+    font-size: 36px;
+    margin-bottom: 25px;
+    color: rgba(255, 255, 255, 1);
+    
+}
+
+.Mask {
+    vertical-align: middle;
+}
+
+.text {
+    
+    margin-bottom: 10px;
+    font-family: "Mulish", sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    
+}
+
+.name-inner {
+    font-family: "Mulish", sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 20px;
+}
+
+.inner {
+    text-align: left;
+    font-family: "Mulish", sans-serif ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 15px;
+    
+}
+
+
+.blockquote {
+    text-align: left;
+    margin-left: 80px; 
+    width: 420px;
+    vertical-align: middle;
+    margin-bottom: 90px;
+    font-family: "Mulish", sans-serif ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    
+}
+
+.customer-span {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 56px;
+    height: 2px; 
+    background:rgb(255, 255, 255);
+    border-radius: 5px
+    
+}
+
+
+.vector {
+    text-align: center;
+    margin: 20px;
+}
+
+.ul-li {  
+    margin-bottom: 50px;  
+    background-image: url("../images/box-in.png"), url("../images/li.png");
+    background-repeat: no-repeat;
+    background-size: 100px 80px, 900px 900px;
+    background-position: calc(50% - 520px) calc(50% - 190px), calc(50% - -730px) calc(50% - -80px);  
+    
+}
+
+.footer {
+    padding-top: 100px;
+   
+    background-image: url("../images/box-in.png") ;
+    background-repeat: no-repeat;
+    background-size: 100px 80px;
+    background-position: calc(50% - -700px) calc(50% - 225px);
+}
+
+.services {
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.span {
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 56px;
+    height: 2px; 
+    background:rgb(0, 0, 0);
+    border-radius: 5px
+    
+    
+    
+    
+}
+
+.span-box {
+    width: 462px;
+    text-align: center;
+}
+
+.span-item {
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 56px;
+    height: 2px; 
+    background:rgb(0, 0, 0);
+    border-radius: 5px 
+}
+
+
+.center-box-item {
+    list-style: none;
+}
+
+.bottom-text-box-items {
+    
+    margin-left: 34px;
+    text-align: left;
+    margin-bottom: 20px;
+    border: 2px solid;
+    border-color: rgb(225, 225, 225);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.text-pic {
+    border-radius: 20px;
+}
+
+
+.text-bottom {
+    padding: 20px;
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    
+}
+
+.group-mask {
+    display: flex;
+    align-items: center;
+}
+
+
+.box-mask-in {
+    display: flex;
+    
+}
+
+.Mask {
+    display: flex;
+    margin-left: 100px;
+    
+}
+
+.name{
+    width: 200px;
+    padding-top: 55px;
+}
+
+.img-mask {
+    vertical-align: middle;
+}
+
+
+
+.text-logo {
+    margin-top: 25px;
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    width: 400px;
+}
+
+.logo {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+.logo-span {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.bottom-text {
+    margin-right: 120px;
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+    
+}
+
+.bottom-text-item {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    width: 100px;   
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+.how-link {
+    width: 150px;
+}
+
+.future {
+background-color: rgba(103, 195, 243, 1);
+padding-top: 100px;
+padding-bottom: 100px;
+background-image: url(../images/future.png);
+background-repeat: no-repeat;
+background-position: calc(50% - 700px) calc(50% - -200px);
+
+}
+
+.bottom-link {
+    width: 115px;
+    margin-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    
+}
+
+.link-logo-footer {
+    width: 160px;
+}
+
+.item {
+    display: inline-block;
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(69, 143, 246);
+    text-decoration: none;
+    
+}
+
+
+.center-box-item {
+    display: flex;
+}
+
+
+.link-bottom {
+    color: rgb(69, 143, 246);
+    font-family: "Mulish", sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    width: 200px;
+    border: 1px solid rgb(69, 143, 246);
+    border-radius: 55px;
+    font-size: 18px;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    margin-bottom: 30px;
+    line-height: 60px;
+    margin-bottom: 100px;
+    
+}
+
+
+
+
+.strong-text {
+    display: block;
+    font-family: "Mulish", sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.footer-box {
+    display: flex;
+    padding: 30px;
+    
+}
+
